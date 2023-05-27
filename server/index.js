@@ -60,7 +60,6 @@ app.use("/auth", authRoutes);
 app.use("/users", userRoutes)
 app.use("/posts",postRoutes);
 
-
 app.listen(port, () => {
     console.log(`Connected to port ${port}`);
     // user.insertMany(users);
